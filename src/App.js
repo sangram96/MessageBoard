@@ -1,6 +1,6 @@
 import style from "./app.module.css";
 import Header from "./component/Header";
-import ChartDetails from "./component/ChartDetails";
+import ChartDetails from "./component/ChatDetails";
 import { useEffect, useState } from "react";
 import * as Moment from "moment";
 import { getData } from "./utils";
@@ -25,7 +25,7 @@ function App() {
     const response = await getData();
     setData(response);
   };
-  
+
   useEffect(() => {
     getMessages();
   }, []);

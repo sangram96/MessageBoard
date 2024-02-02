@@ -1,0 +1,28 @@
+.cardDetailsContainer {
+    display: flex;
+    align-items: start;
+    border-top: 2px dotted #8591A8;
+    border-bottom: 2px dotted #8591A8;
+    padding: 20px 0px;
+}
+.subContainer {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.img {
+    transform: translate(-5px, 0px);
+    width: 30px;
+    height: 30px;
+}
+.details {
+    white-space: normal;
+    color: #38383a;
+}
+.deleteBtn {
+    background: none;
+    border: none;
+    border-bottom: 1px solid blue;
+    color: blue;
+}
