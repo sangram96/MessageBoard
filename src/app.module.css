@@ -1,0 +1,13 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    padding: 30px;
+}
+.nextBtn {
+    margin-top: 5px;
+    margin-left: 7px;
+    padding: 5px;
+}
